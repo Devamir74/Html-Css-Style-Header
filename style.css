@@ -1,0 +1,35 @@
+.main-header{
+	background-image: url(https://i.postimg.cc/sX4bS5W9/banner-bg.png);
+	width: 100%;
+	float: left;
+	height: auto;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.header-menu{
+	width: 80%;
+	margin: auto;
+	background-color:#2b2a29;
+	clip-path: polygon(0 0,100% 0,96% 100%,3% 100%);
+	height: auto;
+	padding: 10px 0;
+
+}
+.header-menu ul {
+	text-align: center;
+}
+.header-menu ul  li {
+	display: inline-block;
+	list-style: none;
+}
+.header-menu ul  li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	padding: 10px 10px;
+	transition: .5s;
+	font-weight: 500;
+}
+.header-menu ul  li a:hover{
+	color: rgb(245, 119, 8);
+}
